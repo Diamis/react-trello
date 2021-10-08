@@ -322,6 +322,7 @@ class Lane extends _react.Component {
     return _react.default.createElement(components.Section, (0, _extends2.default)({}, otherProps, {
       key: id,
       laneId: id,
+      onAdd: this.addNewCard,
       onClick: () => onLaneClick && onLaneClick(id),
       draggable: false,
       className: allClassNames
